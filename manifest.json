@@ -1,0 +1,198 @@
+{
+    "description": "Breaking Bad Parody",
+    "developer":
+    {
+        "name": "Itzik Cobra"
+    },
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "license": "license.txt",
+        "payload":
+        {
+            "background_music":
+            [
+                "music/RelaxMidbar.mp3"
+            ],
+            "browser_sounds":
+            {                
+                "CLICK":
+                [
+                    "sound/BLACK.mp3"
+                ],                
+                "HOVER":
+                [
+                    "sound/HineZe.mp3"
+                ],                                                
+                "LIMITER_OFF":
+                [
+                    "sound/TamTekes.mp3"
+                ],
+                "LIMITER_ON":
+                [
+                    "sound/ShavTekes.mp3"
+                ],
+                "SWITCH_TOGGLE":
+                [
+                    "sound/TamTekes.mp3",
+                    "sound/ShavTekes.mp3"
+                ],
+                "TAB_CLOSE":
+                [
+                    "sound/Eeeeeeeee.mp3",
+                    "sound/BiMotek.mp3",
+                    "sound/Hesinbergg2.mp3",
+                    "sound/ImDead.mp3",
+                    "sound/Pakum.mp3",
+                    "sound/BallsPartner.mp3",
+                    "sound/Heisenberggggg.mp3",
+                    "sound/PP.mp3",
+                    "sound/Tpii.mp3",
+                    "sound/Hesinbergg2.mp3",
+                    "sound/MadeMeBlack.mp3",
+                    "sound/Rabak.mp3"
+
+                ],
+                "TAB_INSERT":
+                [
+                    "sound/WUlrlrlrlrlr.mp3",
+                    "sound/WUlrlrlrlrlr.mp3",
+                    "sound/WUlrlrlrlrlr.mp3",
+                    "sound/Ohhhhhhhh.mp3",
+                    "sound/WUlrlrlrlrlr.mp3",
+                    "sound/WUlrlrlrlrlr.mp3",
+                    "sound/WUlrlrlrlrlr.mp3",
+                    "sound/Choke.mp3",
+                    "sound/WUlrlrlrlrlr.mp3",
+                    "sound/WUlrlrlrlrlr.mp3",
+                    "sound/WUlrlrlrlrlr.mp3",
+                    "sound/WUlrlrlrlrlr.mp3",
+                    "sound/Ohhhhhhhh.mp3",
+                    "sound/WUlrlrlrlrlr.mp3",
+                    "sound/Choke.mp3",
+                    "sound/WUlrlrlrlrlr.mp3",
+                    "sound/Good morning remix.mp3"
+                ]                
+            },
+            "keyboard_sounds":
+            {
+                "TYPING_BACKSPACE":
+                [
+                    "keyboard/EscobarWow.mp3"
+                ],
+                "TYPING_ENTER":
+                [
+                    "keyboard/WOWOW.mp3"
+                ],
+                "TYPING_LETTER":
+                [                    
+                    "Keyboard/Moshe2.mp3",
+                    "Keyboard/Moshe1.mp3",
+                    "Keyboard/Kozak1.mp3",
+                    "Keyboard/Kozak2.mp3", 
+
+                    "Keyboard/Moshe3.mp3",
+                    "Keyboard/Kozak2.mp3",                    
+
+                    "Keyboard/Moshe2.mp3",
+                    "Keyboard/Kozak3.mp3"
+                ],
+                "TYPING_SPACE":
+                [
+                    "keyboard/Yad.mp3"
+                ]
+            },
+            "page_styles":
+            [
+                {
+                    "css":
+                    [
+                        "webmodding/opera.css"
+                    ],
+                    "matches":
+                    [
+                        "https://*.opera.com/*"
+                    ]
+                }
+            ],
+            "shaders":
+            {
+                "Wave":
+                {
+                    "path" : "shader/wave.txt",
+                    "animation":
+                    {
+                        "duration": 60,
+                        "steps": 3600
+                    }
+                },
+                "CocaineRain":                
+                {
+                    "path": "shader/matrix.txt",
+                    "animation":
+                    {
+                        "duration": 60,
+                        "steps": 3600
+                    }
+                }
+               
+            },
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 85,
+                        "s": 100,
+                        "l": 72
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 272,
+                        "s": 64,
+                        "l": 16
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 112,
+                        "s": 80,
+                        "l": 44
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 272,
+                        "s": 32,
+                        "l": 16
+                    }
+                }
+            },
+            "wallpaper":
+            {
+                "dark":
+                {   
+                    "image": "wallpaper/dark.png",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#757575"
+                },
+                "light":
+                {
+                    "image": "wallpaper/video.webm",
+                    "first_frame": "wallpaper/first_frame.jpeg",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#0B000E"
+                }
+            }
+        },
+        "schema_version": 1
+    },
+    "name": "Heisenberg",
+    "version": "6.9"
+}
