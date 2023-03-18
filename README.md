@@ -9,8 +9,7 @@ To add this mod follow these instructions:
 4. Click "load unpacked".
 5. Select the folder you have just donwloaded.
 
-Go here to activate the relaxing background music (I recommend you put the volume strength at anywhere between 5 to 1
-):
+Go here to activate the relaxing background music (I recommend you put the volume strength at anywhere between 5 to 1):
 - "opera://settings/background_music_settings"
 
 
